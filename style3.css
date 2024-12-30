@@ -1,0 +1,55 @@
+<body>
+h1{color:purple;
+   text-align:center;
+   font-size:2.85vw;
+	}
+
+h2{background-color:white;
+   color:purple;
+   font-size:1.65vw;
+	}
+
+p{font-size:1.49vw}
+
+a{color:red;
+  font-size:1.35vw}
+
+ol{color:brown;
+  font-size=1.3vw}
+
+.left{
+      padding:10px;
+      float:left;
+      width:20%;}
+.main{
+      padding:20px;
+      float:left;
+      width:60%;
+      }
+.right{
+      padding:20px;
+      float:left;
+     width:20%;
+	}
+
+.container { 
+	width: 80%;
+	 margin: auto; 
+	overflow: hidden; } /* Styles for mobile devices */
+
+ @media (max-width: 768px) { 
+	.container { 
+		width: 100%; 
+	} 
+
+	.left, .main, .right { 
+	width: 100%; 
+	float: none; } 
+	}
+
+@media screen and (max-width:800px){
+.left,.main,.right{100%}
+}
+
+
+</body>
